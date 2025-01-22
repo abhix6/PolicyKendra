@@ -1,5 +1,4 @@
 import React from 'react';
-import { Building2 } from 'lucide-react';
 
 function AssociatedBrands() {
   const insurancePartners = {
@@ -53,7 +52,11 @@ function AssociatedBrands() {
               {insurancePartners.life.map((partner, index) => (
                 <div key={index} className="group">
                   <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
-                    <Building2 className="w-16 h-16 mx-auto text-blue-600 mb-4 transition-all duration-300 group-hover:text-blue-800" />
+                    <img 
+                      src={partner.logo} 
+                      alt={partner.name}
+                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 group-hover:scale-110" 
+                    />
                     <p className="text-center font-medium text-gray-800">{partner.name}</p>
                   </div>
                 </div>
@@ -70,7 +73,11 @@ function AssociatedBrands() {
               {insurancePartners.health.map((partner, index) => (
                 <div key={index} className="group">
                   <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
-                    <Building2 className="w-16 h-16 mx-auto text-green-600 mb-4 transition-all duration-300 group-hover:text-green-800" />
+                    <img 
+                      src={partner.logo} 
+                      alt={partner.name}
+                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 group-hover:scale-110" 
+                    />
                     <p className="text-center font-medium text-gray-800">{partner.name}</p>
                   </div>
                 </div>
@@ -87,7 +94,11 @@ function AssociatedBrands() {
               {insurancePartners.motor.map((partner, index) => (
                 <div key={index} className="group">
                   <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
-                    <Building2 className="w-16 h-16 mx-auto text-red-600 mb-4 transition-all duration-300 group-hover:text-red-800" />
+                    <img 
+                      src={partner.logo} 
+                      alt={partner.name}
+                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 group-hover:scale-110" 
+                    />
                     <p className="text-center font-medium text-gray-800">{partner.name}</p>
                   </div>
                 </div>

@@ -1,8 +1,17 @@
 import React from 'react';
-import { Shield, Award, Users, Phone, Building2 } from 'lucide-react';
+import { Shield, Award, Users, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 function Welcome() {
+  const partnerLogos = [
+    'images/png.png',
+    'images/bajaj.jpg',
+    'images/icicip.png',
+    'images/hdfclife.jpg',
+    'images/tata.png',
+    'images/max.png'
+  ];
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -30,9 +39,13 @@ function Welcome() {
       <div className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-3 md:grid-cols-6 gap-8 items-center">
-            {[...Array(6)].map((_, index) => (
+            {partnerLogos.map((logo, index) => (
               <div key={index} className="flex justify-center">
-                <Building2 className="w-12 h-12 text-gray-400 hover:text-blue-600 transition-colors duration-300" />
+                <img 
+                  src={logo}
+                  alt={`Partner ${index + 1}`}
+                  className="w-16 h-16 object-contain hover:scale-110 transition-transform duration-300"
+                />
               </div>
             ))}
           </div>
