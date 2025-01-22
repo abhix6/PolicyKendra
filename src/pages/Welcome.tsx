@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Welcome() {
   const partnerLogos = [
-    'images/png.png',
+    'images/pnb.png',
     'images/bajaj.jpg',
     'images/icicip.png',
     'images/hdfclife.jpg',

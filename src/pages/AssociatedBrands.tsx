@@ -3,7 +3,7 @@ import React from 'react';
 function AssociatedBrands() {
   const insurancePartners = {
     life: [
-      { name: 'PNB MetLife', logo: 'images/png.png' },
+      { name: 'PNB MetLife', logo: 'images/pnb.png' },
       { name: 'Bajaj Allianz', logo: 'images/bajaj.jpg' },
       { name: 'ICICI Prudential', logo: 'images/icicip.png' },
       { name: 'HDFC Life', logo: 'images/hdfclife.jpg' },
@@ -12,14 +12,14 @@ function AssociatedBrands() {
     ],
     health: [
       { name: 'Niva Bupa', logo: 'images/niva.png' },
-      { name: 'Care Health', logo: 'https://www.careinsurance.com/content/dam/care/images/logo.png' },
+      { name: 'Care Health', logo: 'images/car.png' },
       { name: 'Star Health', logo: 'images/star.png' },
       { name: 'HDFC ERGO', logo: 'images/hdfcergo.jpg' },
-      { name: 'ICICI Lombard', logo: 'images/icicil' }
+      { name: 'ICICI Lombard', logo: 'images/icicil.jpg' }
     ],
     motor: [
-      { name: 'Bajaj Allianz Car Insurance', logo: 'images/bajaj.png' },
-      { name: 'ICICI Lombard Car Insurance', logo: 'images/icicil.png' },
+      { name: 'Bajaj Allianz Car Insurance', logo: 'images/bajaj.jpg' },
+      { name: 'ICICI Lombard Car Insurance', logo: 'images/icicil.jpg' },
       { name: 'Cholamandalam MS Car Insurance', logo: 'images/chola.png' }
     ]
   };
