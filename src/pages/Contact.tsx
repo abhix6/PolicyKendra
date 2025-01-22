@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 function Contact() {
   const openGoogleMaps = () => {
-    window.open('https://maps.google.com/?q=123+Insurance+Plaza+New+Delhi+110001', '_blank');
+    window.open('https://www.google.com/maps?q=28.6193074,77.0345689', '_blank');
   };
 
   return (
@@ -34,7 +34,8 @@ function Contact() {
                   <MapPin className="w-6 h-6 text-blue-600 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold mb-1">Visit Us</h3>
-                    <p className="text-gray-600">123 Insurance Plaza<br />New Delhi, 110001<br />India</p>
+                    <p className="text-gray-600">PolicyKendra 1st Floor
+Plot No 20, Sewak Park , Near Dwarka Metro Piller No 771, Dwarka, New-Delhi, 110059<br />India</p>
                     <button
                       onClick={openGoogleMaps}
                       className="mt-2 text-blue-600 hover:text-blue-800 font-medium flex items-center"
@@ -48,21 +49,21 @@ function Contact() {
                   <Phone className="w-6 h-6 text-blue-600 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold mb-1">Call Us</h3>
-                    <p className="text-gray-600">+91 (11) 1234-5678</p>
+                    <p className="text-gray-600">+91 9911555604</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <Mail className="w-6 h-6 text-blue-600 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold mb-1">Email Us</h3>
-                    <p className="text-gray-600">info@policykendra.com</p>
+                    <p className="text-gray-600">contact.poilicykendra@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <Clock className="w-6 h-6 text-blue-600 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold mb-1">Business Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 9:00 AM - 2:00 PM</p>
+                    <p className="text-gray-600">Monday - Saturday: 10:00 AM - 6:30 PM<br/></p>
                   </div>
                 </div>
               </div>
@@ -71,7 +72,7 @@ function Contact() {
             {/* Google Form */}
             <div className="animate-slide-up">
               <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSfCxbB5tRXVBqgXWYn0FdXOHn8_QKzGxOzHxz1mWGgFAp8KaQ/viewform?embedded=true"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfyrGclgt8uxXCIkINC2mseXHt_fCdoop0qlGenCmABIsiraA/viewform?embedded=true"
                 width="100%"
                 height="600"
                 frameBorder="0"
