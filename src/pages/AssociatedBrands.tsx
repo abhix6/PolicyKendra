@@ -1,0 +1,103 @@
+import React from 'react';
+import { Building2 } from 'lucide-react';
+
+function AssociatedBrands() {
+  const insurancePartners = {
+    life: [
+      { name: 'PNB MetLife', logo: 'https://www.pnbmetlife.com/content/dam/pnb-metlife/images/brand/logo.png' },
+      { name: 'Bajaj Allianz', logo: 'https://www.bajajallianzlife.com/content/dam/balic/index/logo.png' },
+      { name: 'ICICI Prudential', logo: 'https://www.iciciprulife.com/content/dam/icicipru/images/logo.png' },
+      { name: 'HDFC Life', logo: 'https://www.hdfclife.com/content/dam/hdfclifecom/images/logo.png' },
+      { name: 'Tata AIA', logo: 'https://www.tataaia.com/content/dam/tataaia/images/logo.png' },
+      { name: 'Max Life', logo: 'https://www.maxlifeinsurance.com/content/dam/maxlife/images/logo.png' }
+    ],
+    health: [
+      { name: 'Niva Bupa', logo: 'https://www.nivabupa.com/content/dam/niva-bupa/images/logo.png' },
+      { name: 'Care Health', logo: 'https://www.careinsurance.com/content/dam/care/images/logo.png' },
+      { name: 'Star Health', logo: 'https://www.starhealth.in/content/dam/star-health/images/logo.png' },
+      { name: 'HDFC ERGO', logo: 'https://www.hdfcergo.com/content/dam/hdfcergo/images/logo.png' },
+      { name: 'ICICI Lombard', logo: 'https://www.icicilombard.com/content/dam/icici-lombard/images/logo.png' }
+    ],
+    motor: [
+      { name: 'Bajaj Allianz Car Insurance', logo: 'https://www.bajajallianz.com/content/dam/bajajallianz/images/logo.png' },
+      { name: 'ICICI Lombard Car Insurance', logo: 'https://www.icicilombard.com/content/dam/icici-lombard/images/logo.png' },
+      { name: 'Cholamandalam MS Car Insurance', logo: 'https://www.cholainsurance.com/content/dam/chola/images/logo.png' }
+    ]
+  };
+
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <div 
+        className="relative h-[400px] bg-cover bg-center"
+        style={{
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")'
+        }}
+      >
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white px-4 animate-fade-in">
+            <h1 className="text-5xl font-bold mb-4">Our Trusted Partners</h1>
+            <p className="text-xl max-w-2xl mx-auto">Collaborating with industry leaders to provide you the best insurance solutions</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Life Insurance Partners */}
+          <div className="mb-16 animate-slide-up">
+            <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
+              Life Insurance Partners
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+              {insurancePartners.life.map((partner, index) => (
+                <div key={index} className="group">
+                  <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
+                    <Building2 className="w-16 h-16 mx-auto text-blue-600 mb-4 transition-all duration-300 group-hover:text-blue-800" />
+                    <p className="text-center font-medium text-gray-800">{partner.name}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Health Insurance Partners */}
+          <div className="mb-16 animate-slide-up">
+            <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-green-600 to-teal-600 text-transparent bg-clip-text">
+              Health Insurance Partners
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+              {insurancePartners.health.map((partner, index) => (
+                <div key={index} className="group">
+                  <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
+                    <Building2 className="w-16 h-16 mx-auto text-green-600 mb-4 transition-all duration-300 group-hover:text-green-800" />
+                    <p className="text-center font-medium text-gray-800">{partner.name}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Motor Insurance Partners */}
+          <div className="animate-slide-up">
+            <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-red-600 to-orange-600 text-transparent bg-clip-text">
+              Motor Insurance Partners
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {insurancePartners.motor.map((partner, index) => (
+                <div key={index} className="group">
+                  <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
+                    <Building2 className="w-16 h-16 mx-auto text-red-600 mb-4 transition-all duration-300 group-hover:text-red-800" />
+                    <p className="text-center font-medium text-gray-800">{partner.name}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default AssociatedBrands;
