@@ -3,7 +3,7 @@ import React from 'react';
 function AssociatedBrands() {
   const insurancePartners = {
     life: [
-      { name: 'PNB MetLife', logo: 'PolicyKendra/images/pnb.png' },
+      { name: 'PNB MetLife', logo: 'https://content.jdmagicbox.com/comp/kolkata/d8/033pxx33.xx33.151127201519.k1d8/catalogue/pnb-metlife-insurance-kolkata-pnb-metlife-insurance-3cor2.jpg' },
       { name: 'Bajaj Allianz', logo: 'PolicyKendra/images/bajaj.jpg' },
       { name: 'ICICI Prudential', logo: 'PolicyKendra/images/icicip.png' },
       { name: 'HDFC Life', logo: 'PolicyKendra/images/hdfclife.jpg' },
