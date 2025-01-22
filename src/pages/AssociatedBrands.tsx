@@ -4,23 +4,23 @@ function AssociatedBrands() {
   const insurancePartners = {
     life: [
       { name: 'PNB MetLife', logo: 'https://content.jdmagicbox.com/comp/kolkata/d8/033pxx33.xx33.151127201519.k1d8/catalogue/pnb-metlife-insurance-kolkata-pnb-metlife-insurance-3cor2.jpg' },
-      { name: 'Bajaj Allianz', logo: 'PolicyKendra/images/bajaj.jpg' },
-      { name: 'ICICI Prudential', logo: 'PolicyKendra/images/icicip.png' },
-      { name: 'HDFC Life', logo: 'PolicyKendra/images/hdfclife.jpg' },
-      { name: 'Tata AIA', logo: 'PolicyKendra/images/tata.png' },
-      { name: 'Max Life', logo: 'PolicyKendra/images/max.png' }
+      { name: 'Bajaj Allianz', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3x9ohHbvh0r8IRRgR6j-5Piy0ghESNmp4w&s' },
+      { name: 'ICICI Prudential', logo: 'https://assets.upstox.com/content/assets/images/logos/NSE_EQ%7CINE726G01019.png' },
+      { name: 'HDFC Life', logo: 'https://i.pinimg.com/736x/43/b6/b4/43b6b4a29c8ce1dc69409903ffc4925c.jpg' },
+      { name: 'Tata AIA', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzoXFvZMVxCqmazwTYAT0TCkvPkejWjfsyAg&s' },
+      { name: 'Max Life', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3gV1PnoPepP5sNc9fpRcSuq-LopV16VzSw&s' }
     ],
     health: [
-      { name: 'Niva Bupa', logo: 'PolicyKendra/images/niva.png' },
-      { name: 'Care Health', logo: 'PolicyKendra/images/car.png' },
-      { name: 'Star Health', logo: 'PolicyKendra/images/star.png' },
-      { name: 'HDFC ERGO', logo: 'PolicyKendra/images/hdfcergo.jpg' },
-      { name: 'ICICI Lombard', logo: 'PolicyKendra/images/icicil.jpg' }
+      { name: 'Niva Bupa', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4mxRtoPUYG8uyC3DekkrQH-g8hHQvAVJw5Q&s' },
+      { name: 'Care Health', logo: 'https://e7.pngegg.com/pngimages/579/831/png-clipart-vehicle-insurance-home-insurance-insurance-agent-health-insurance-others-miscellaneous-logo.png' },
+      { name: 'Star Health', logo: 'https://play-lh.googleusercontent.com/JEcrbamGiWvHjDBubpjIfDAZ5-aqy-z1oDXag4XSDptHSYtGftWcH_sfENba-lSlBQ' },
+      { name: 'HDFC ERGO', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/HDFC-Ergo-logo.png' },
+      { name: 'ICICI Lombard', logo: 'https://yt3.googleusercontent.com/Cb4yUkaUQO0wQXGMLARg5mVG_gP7NplJfvQYLiOPftml2tAgq1ChvTcEKBIpoCzXdYteXZ0ICA=s900-c-k-c0x00ffffff-no-rj' }
     ],
     motor: [
-      { name: 'Bajaj Allianz Car Insurance', logo: 'PolicyKendra/images/bajaj.jpg' },
-      { name: 'ICICI Lombard Car Insurance', logo: 'PolicyKendra/images/icicil.jpg' },
-      { name: 'Cholamandalam MS Car Insurance', logo: 'PolicyKendra/images/chola.png' }
+      { name: 'Bajaj Allianz Car Insurance', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3x9ohHbvh0r8IRRgR6j-5Piy0ghESNmp4w&s' },
+      { name: 'ICICI Lombard Car Insurance', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAcg3Nl-cdYWbKbFi0rJRo0xASHG5aCixCBg&s' },
+      { name: 'Cholamandalam MS Car Insurance', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUA7Ur0Turi441GiVfuBGNch260XZrdEHSHA&s' }
     ]
   };
 
