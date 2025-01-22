@@ -3,7 +3,7 @@ import React from 'react';
 function AssociatedBrands() {
   const insurancePartners = {
     life: [
-      { name: 'PNB MetLife', logo: 'images/pnb.png' },
+      { name: 'PNB MetLife', logo: 'main/images/pnb.png' },
       { name: 'Bajaj Allianz', logo: 'images/bajaj.jpg' },
       { name: 'ICICI Prudential', logo: 'images/icicip.png' },
       { name: 'HDFC Life', logo: 'images/hdfclife.jpg' },
