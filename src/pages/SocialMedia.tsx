@@ -34,7 +34,7 @@ function SocialMedia() {
             </a>
 
             <a 
-              href="https://www.instagram.com/policykendra" 
+              href="https://www.instagram.com/policykendra.in/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group bg-gray-50 p-8 rounded-lg hover:bg-pink-50 transition-all duration-300 animate-slide-up"
@@ -45,7 +45,7 @@ function SocialMedia() {
             </a>
 
             <a 
-              href="https://www.facebook.com/policykendra" 
+              href="https://www.facebook.com/profile.php?id=61572488695969&sk=about" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group bg-gray-50 p-8 rounded-lg hover:bg-blue-50 transition-all duration-300 animate-slide-up"
@@ -56,7 +56,7 @@ function SocialMedia() {
             </a>
 
             <a 
-              href="https://www.linkedin.com/company/policykendra" 
+              href="https://www.linkedin.com/in/policy-kendra-bb552a348/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group bg-gray-50 p-8 rounded-lg hover:bg-blue-50 transition-all duration-300 animate-slide-up"
