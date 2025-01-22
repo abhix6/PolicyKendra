@@ -56,7 +56,7 @@ Plot No 20, Sewak Park , Near Dwarka Metro Piller No 771, Dwarka, New-Delhi, 110
                   <Mail className="w-6 h-6 text-blue-600 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold mb-1">Email Us</h3>
-                    <p className="text-gray-600">contact.poilicykendra@gmail.com</p>
+                    <p className="text-gray-600">contact.policykendra@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
