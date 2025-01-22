@@ -3,24 +3,24 @@ import React from 'react';
 function AssociatedBrands() {
   const insurancePartners = {
     life: [
-      { name: 'PNB MetLife', logo: 'main/images/pnb.png' },
-      { name: 'Bajaj Allianz', logo: 'images/bajaj.jpg' },
-      { name: 'ICICI Prudential', logo: 'images/icicip.png' },
-      { name: 'HDFC Life', logo: 'images/hdfclife.jpg' },
-      { name: 'Tata AIA', logo: 'images/tata.png' },
-      { name: 'Max Life', logo: 'images/max.png' }
+      { name: 'PNB MetLife', logo: 'PolicyKendra/images/pnb.png' },
+      { name: 'Bajaj Allianz', logo: 'PolicyKendra/images/bajaj.jpg' },
+      { name: 'ICICI Prudential', logo: 'PolicyKendra/images/icicip.png' },
+      { name: 'HDFC Life', logo: 'PolicyKendra/images/hdfclife.jpg' },
+      { name: 'Tata AIA', logo: 'PolicyKendra/images/tata.png' },
+      { name: 'Max Life', logo: 'PolicyKendra/images/max.png' }
     ],
     health: [
-      { name: 'Niva Bupa', logo: 'images/niva.png' },
-      { name: 'Care Health', logo: 'images/car.png' },
-      { name: 'Star Health', logo: 'images/star.png' },
-      { name: 'HDFC ERGO', logo: 'images/hdfcergo.jpg' },
-      { name: 'ICICI Lombard', logo: 'images/icicil.jpg' }
+      { name: 'Niva Bupa', logo: 'PolicyKendra/images/niva.png' },
+      { name: 'Care Health', logo: 'PolicyKendra/images/car.png' },
+      { name: 'Star Health', logo: 'PolicyKendra/images/star.png' },
+      { name: 'HDFC ERGO', logo: 'PolicyKendra/images/hdfcergo.jpg' },
+      { name: 'ICICI Lombard', logo: 'PolicyKendra/images/icicil.jpg' }
     ],
     motor: [
-      { name: 'Bajaj Allianz Car Insurance', logo: 'images/bajaj.jpg' },
-      { name: 'ICICI Lombard Car Insurance', logo: 'images/icicil.jpg' },
-      { name: 'Cholamandalam MS Car Insurance', logo: 'images/chola.png' }
+      { name: 'Bajaj Allianz Car Insurance', logo: 'PolicyKendra/images/bajaj.jpg' },
+      { name: 'ICICI Lombard Car Insurance', logo: 'PolicyKendra/images/icicil.jpg' },
+      { name: 'Cholamandalam MS Car Insurance', logo: 'PolicyKendra/images/chola.png' }
     ]
   };
 
