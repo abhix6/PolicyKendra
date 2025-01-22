@@ -4,24 +4,24 @@ import { Building2 } from 'lucide-react';
 function AssociatedBrands() {
   const insurancePartners = {
     life: [
-      { name: 'PNB MetLife', logo: 'https://www.pnbmetlife.com/content/dam/pnb-metlife/images/brand/logo.png' },
-      { name: 'Bajaj Allianz', logo: 'https://www.bajajallianzlife.com/content/dam/balic/index/logo.png' },
-      { name: 'ICICI Prudential', logo: 'https://www.iciciprulife.com/content/dam/icicipru/images/logo.png' },
-      { name: 'HDFC Life', logo: 'https://www.hdfclife.com/content/dam/hdfclifecom/images/logo.png' },
-      { name: 'Tata AIA', logo: 'https://www.tataaia.com/content/dam/tataaia/images/logo.png' },
-      { name: 'Max Life', logo: 'https://www.maxlifeinsurance.com/content/dam/maxlife/images/logo.png' }
+      { name: 'PNB MetLife', logo: 'images/png.png' },
+      { name: 'Bajaj Allianz', logo: 'images/bajaj.jpg' },
+      { name: 'ICICI Prudential', logo: 'images/icicip.png' },
+      { name: 'HDFC Life', logo: 'images/hdfclife.jpg' },
+      { name: 'Tata AIA', logo: 'images/tata.png' },
+      { name: 'Max Life', logo: 'images/max.png' }
     ],
     health: [
-      { name: 'Niva Bupa', logo: 'https://www.nivabupa.com/content/dam/niva-bupa/images/logo.png' },
+      { name: 'Niva Bupa', logo: 'images/niva.png' },
       { name: 'Care Health', logo: 'https://www.careinsurance.com/content/dam/care/images/logo.png' },
-      { name: 'Star Health', logo: 'https://www.starhealth.in/content/dam/star-health/images/logo.png' },
-      { name: 'HDFC ERGO', logo: 'https://www.hdfcergo.com/content/dam/hdfcergo/images/logo.png' },
-      { name: 'ICICI Lombard', logo: 'https://www.icicilombard.com/content/dam/icici-lombard/images/logo.png' }
+      { name: 'Star Health', logo: 'images/star.png' },
+      { name: 'HDFC ERGO', logo: 'images/hdfcergo.jpg' },
+      { name: 'ICICI Lombard', logo: 'images/icicil' }
     ],
     motor: [
-      { name: 'Bajaj Allianz Car Insurance', logo: 'https://www.bajajallianz.com/content/dam/bajajallianz/images/logo.png' },
-      { name: 'ICICI Lombard Car Insurance', logo: 'https://www.icicilombard.com/content/dam/icici-lombard/images/logo.png' },
-      { name: 'Cholamandalam MS Car Insurance', logo: 'https://www.cholainsurance.com/content/dam/chola/images/logo.png' }
+      { name: 'Bajaj Allianz Car Insurance', logo: 'images/bajaj.png' },
+      { name: 'ICICI Lombard Car Insurance', logo: 'images/icicil.png' },
+      { name: 'Cholamandalam MS Car Insurance', logo: 'images/chola.png' }
     ]
   };
 
