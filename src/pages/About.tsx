@@ -14,7 +14,7 @@ function About() {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <h1 className="text-5xl font-bold mb-4">About PolicyKendra</h1>
-            <p className="text-xl max-w-2xl mx-auto">Your trusted partner in navigating the complex world of insurance since 1970</p>
+            <p className="text-xl max-w-2xl mx-auto">Your trusted partner in navigating the complex world of insurance since 2010</p>
           </div>
         </div>
       </div>
@@ -34,11 +34,11 @@ function About() {
             </div>
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-blue-50 p-6 rounded-lg text-center">
-                <h3 className="text-4xl font-bold text-blue-600 mb-2">50+</h3>
+                <h3 className="text-4xl font-bold text-blue-600 mb-2">20+</h3>
                 <p className="text-gray-600">Years of Experience</p>
               </div>
               <div className="bg-blue-50 p-6 rounded-lg text-center">
-                <h3 className="text-4xl font-bold text-blue-600 mb-2">10k+</h3>
+                <h3 className="text-4xl font-bold text-blue-600 mb-2">5k+</h3>
                 <p className="text-gray-600">Happy Clients</p>
               </div>
               <div className="bg-blue-50 p-6 rounded-lg text-center">
