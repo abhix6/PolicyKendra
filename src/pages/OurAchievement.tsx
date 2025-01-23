@@ -4,8 +4,8 @@ function OurAchievement() {
   // Replace these URLs with your actual achievement photos
   const achievements = [
     {
-      image: 'https://images.unsplash.com/photo-1579447745798-74bbe0fc5a5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      title: 'Best Insurance Advisory 2023'
+      image: 'https://drive.google.com/file/d/1rSORDm94mDsjF0jZp0LG6iyNfFiDziwS/preview" width="640" height="480" allow="autoplay',
+      title: 'Award of excellence'
     },
     {
       image: 'https://images.unsplash.com/photo-1523287562758-66c7fc58967f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
