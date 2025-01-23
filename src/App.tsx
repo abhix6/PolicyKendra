@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Shield, Menu, X } from 'lucide-react';
 import Welcome from './pages/Welcome';
 import About from './pages/About';
-import WhyUs from './pages/WhyUs';
+import OurManagement from './pages/OurManagement';
 import Contact from './pages/Contact';
 import SocialMedia from './pages/SocialMedia';
 import AssociatedBrands from './pages/AssociatedBrands';
+import OurAchievement from './pages/OurAchievement';
 import { useState } from 'react';
 
 function App() {
@@ -33,8 +34,8 @@ function App() {
                 <Link to="/about" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
                   About Us
                 </Link>
-                <Link to="/why-us" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                  Why Us
+                <Link to="/management" className="text-gray-600 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">
+                  Our Management
                 </Link>
                 <Link to="/contact" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
                   Contact
@@ -47,6 +48,12 @@ function App() {
                   className="text-blue-600 font-semibold px-3 py-2 rounded-md text-sm bg-blue-50 border-2 border-blue-200 hover:bg-blue-100 transition-colors duration-300"
                 >
                   Associated Brands
+                </Link>
+                <Link 
+                  to="/achievement" 
+                  className="text-red-600 font-semibold px-3 py-2 rounded-md text-sm bg-red-50 border-2 border-red-200 hover:bg-red-100 transition-colors duration-300"
+                >
+                  Our Achievements
                 </Link>
               </div>
 
@@ -85,11 +92,11 @@ function App() {
                   About Us
                 </Link>
                 <Link
-                  to="/why-us"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-50"
+                  to="/management"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-purple-600 hover:bg-gray-50"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Why Us
+                  Our Management
                 </Link>
                 <Link
                   to="/contact"
@@ -112,6 +119,13 @@ function App() {
                 >
                   Associated Brands
                 </Link>
+                <Link
+                  to="/achievement"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-red-600 bg-red-50 hover:bg-red-100"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Our Achievements
+                </Link>
               </div>
             </div>
           )}
@@ -121,10 +135,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Welcome />} />
             <Route path="/about" element={<About />} />
-            <Route path="/why-us" element={<WhyUs />} />
+            <Route path="/management" element={<OurManagement />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/social" element={<SocialMedia />} />
             <Route path="/brands" element={<AssociatedBrands />} />
+            <Route path="/achievement" element={<OurAchievement />} />
           </Routes>
         </main>
       </div>
