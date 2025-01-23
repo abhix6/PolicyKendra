@@ -27,7 +27,7 @@ function OurManagement() {
                 <div className="overflow-hidden rounded-lg shadow-xl transform transition-all duration-300 group-hover:scale-105">
                   {/* Replace the src with your actual photo */}
                   <img 
-                    src="images/boss.jpg" width="640" height="480" allow="autoplay"
+                    src="PolicyKendra/images/boss.jpg" width="640" height="480" allow="autoplay"
                     alt="Anand Kumar"
                     className="w-full h-[500px] object-cover"
                   />
