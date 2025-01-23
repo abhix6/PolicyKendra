@@ -4,7 +4,7 @@ function OurAchievement() {
   // Replace these URLs with your actual achievement photos
   const achievements = [
     {
-      image: 'https://drive.google.com/file/d/1rSORDm94mDsjF0jZp0LG6iyNfFiDziwS/preview" width="640" height="480" allow="autoplay',
+      image: 'https://drive.google.com/file/d/1rSORDm94mDsjF0jZp0LG6iyNfFiDziwS/preview',
       title: 'Award of excellence'
     },
     {
