@@ -4,7 +4,7 @@ function OurAchievement() {
   // Replace these URLs with your actual achievement photos
   const achievements = [
     {
-      image: 'https://drive.google.com/file/d/1rSORDm94mDsjF0jZp0LG6iyNfFiDziwS/preview',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/boss.jpg',
       title: 'Award of excellence'
     },
     {
