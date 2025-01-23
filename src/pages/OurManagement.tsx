@@ -29,7 +29,7 @@ function OurManagement() {
                   <img 
                     src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/boss.jpg"
                     alt="Anand Kumar"
-                    className="w-full h-[500px] object-cover"
+                    className="w-full h-[750px] object-cover"
                   />
                 </div>
               </div>
