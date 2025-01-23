@@ -26,7 +26,7 @@ function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 1970, PolicyKendra has been at the forefront of insurance innovation, helping countless families and businesses secure their futures through comprehensive insurance solutions.
+                Founded in 2010, PolicyKendra has been at the forefront of insurance innovation, helping countless families and businesses secure their futures through comprehensive insurance solutions.
               </p>
               <p className="text-gray-600">
                 Our commitment to excellence and customer satisfaction has made us one of the most trusted names in the insurance industry, with a track record of delivering personalized solutions that meet our clients' unique needs.
