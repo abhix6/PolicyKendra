@@ -163,18 +163,18 @@ function OurAchievement() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <p className="text-gray-600 mb-4">"PolicyKendra made finding the right insurance policy simple and stress-free. Their team was incredibly helpful throughout the process."</p>
-                <div className="font-semibold">- Sarah Johnson</div>
+                <div className="font-semibold">- Kamal Wahi</div>
                 <div className="text-sm text-gray-500">Business Owner</div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <p className="text-gray-600 mb-4">"I've been with PolicyKendra for over 5 years now. Their customer service is exceptional, and they always go above and beyond."</p>
-                <div className="font-semibold">- Michael Chen</div>
-                <div className="text-sm text-gray-500">Family Insurance</div>
+                <div className="font-semibold">- Sujeet Barua</div>
+                <div className="text-sm text-gray-500">Business Owner</div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <p className="text-gray-600 mb-4">"The best insurance advisory service I've ever worked with. They truly understand their clients' needs and deliver accordingly."</p>
-                <div className="font-semibold">- Emily Rodriguez</div>
-                <div className="text-sm text-gray-500">Healthcare Professional</div>
+                <div className="font-semibold">- Puneet Jain</div>
+                <div className="text-sm text-gray-500">Business Owner</div>
               </div>
             </div>
           </div>
