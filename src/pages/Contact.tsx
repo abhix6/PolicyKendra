@@ -49,7 +49,7 @@ Plot No 20, Sewak Park , Near Dwarka Metro Piller No 771, Dwarka, New-Delhi, 110
                   <Phone className="w-6 h-6 text-blue-600 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold mb-1">Call Us</h3>
-                    <p className="text-gray-600">+91 9716563685<br>+91 9911555604</p>
+                    <p className="text-gray-600">+91 9716563685 <br /> +91 9911555604</p>
                   </div>
                 </div>
                 <div className="flex items-start">
