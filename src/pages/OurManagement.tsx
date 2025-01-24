@@ -73,7 +73,7 @@ function OurManagement() {
                 <div className="overflow-hidden rounded-lg shadow-xl transform transition-all duration-300 group-hover:scale-105">
                   {/* Replace the src with your actual photo */}
                   <img 
-                    src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/IMG_20250123_205422.jpg.jpg"
+                    src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/co-founder.jpg"
                     alt="Vidya Jha"
                     className="w-full h-[750px] object-cover"
                   />
