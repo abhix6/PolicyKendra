@@ -25,11 +25,10 @@ function OurManagement() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative group">
                 <div className="overflow-hidden rounded-lg shadow-xl transform transition-all duration-300 group-hover:scale-105">
-                  {/* Replace the src with your actual photo */}
                   <img 
                     src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/boss.jpg"
                     alt="Anand Kumar"
-                    className="w-full h-[700px] object-cover"
+                    className="w-[300px] h-[400px] object-contain mx-auto"
                   />
                 </div>
               </div>
@@ -71,11 +70,10 @@ function OurManagement() {
               </div>
               <div className="relative group order-1 md:order-2">
                 <div className="overflow-hidden rounded-lg shadow-xl transform transition-all duration-300 group-hover:scale-105">
-                  {/* Replace the src with your actual photo */}
                   <img 
                     src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/co-founder.jpg"
                     alt="Vidya Jha"
-                    className="w-full h-[700px] object-cover"
+                    className="w-[300px] h-[400px] object-contain mx-auto"
                   />
                 </div>
               </div>
