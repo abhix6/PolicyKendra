@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 function Contact() {
   const openGoogleMaps = () => {
-    window.open('https://www.google.com/maps?q=28.6193074,77.0345689', '_blank');
+    window.open('https://www.google.com/maps?q=28.6184025,77.0321361', '_blank');
   };
 
   return (
@@ -34,8 +34,9 @@ function Contact() {
                   <MapPin className="w-6 h-6 text-blue-600 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold mb-1">Visit Us</h3>
-                    <p className="text-gray-600"><strong>PolicyKendra</strong> 1st Floor
-Plot No 20, Sewak Park , Near Dwarka Metro Piller No 771, Dwarka, New-Delhi, 110059<br />India</p>
+                    <p className="text-gray-600"><strong>PolicyKendra</strong> Plot No -120
+UGF , Front Side , Sewak Park , 
+Near Metro Piller No. 782 ,Dwarka More , Delhi 110059<br />India</p>
                     <button
                       onClick={openGoogleMaps}
                       className="mt-2 text-blue-600 hover:text-blue-800 font-medium flex items-center"
