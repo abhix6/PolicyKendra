@@ -95,7 +95,7 @@ function OurAchievement() {
                 <div className="text-sm text-gray-500">Business Owner</div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <p className="text-gray-600 mb-4">"I've been with PolicyKendra for over 6 years now. Their customer service is exceptional, and they always go above and beyond."</p>
+                <p className="text-gray-600 mb-4">"I've been with PolicyKendra for over 5 years now. Their customer service is exceptional, and they always go above and beyond."</p>
                 <div className="font-semibold">- Sujeet Barua</div>
                 <div className="text-sm text-gray-500">Business Owner</div>
               </div>
